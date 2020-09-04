@@ -2,8 +2,12 @@ import { makeStyles } from "@material-ui/core";
 
 export default makeStyles({
     root:{
-        minHeight:220,
-        minWidth:300,
+        minHeight:100,
+        minWidth:100,
+        width:"50%",
+        display:"flex",
+        flexDirection:"column",
+        height:"50%",
         display:"flex",
         marginLeft:50,
         position:"relative",
@@ -44,7 +48,7 @@ export default makeStyles({
     arrow:{
         position:"absolute",
         width:"45%",
-        top:"97%",
+        top:"98%",
         backgroundColor:"#000000",
         height:"5px",
         left:"5%",
@@ -55,12 +59,12 @@ export default makeStyles({
         transition:"all 900ms ease-in"
     },
     text:{
-        position:"absolute",
-        bottom:5,
-        fontSize:"1.3rem",
+        bottom:2,
+        top:"99%",
+        fontSize:"3vw",
         color:"#03C58D",
         fontWeight:"bold",
         userSelect:"none",
-        transition:"all 900ms ease-in"
+        transition:"all 200ms ease-in"
     }
 })
